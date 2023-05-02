@@ -16,7 +16,7 @@ body
 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 300px 300px 500px;
+    grid-template-rows: 300px auto 500px;
     grid-template-areas:
     "header"
     "content"
