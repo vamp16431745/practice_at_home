@@ -44,6 +44,14 @@ body
     background-color: yellow;
 }
 
+#cards
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+
+}
+
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
