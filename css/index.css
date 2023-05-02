@@ -85,7 +85,7 @@ body
      width: 720px;   
     }
 
-    #card section
+    #cards section
     {
         flex: 0 1 50%;
     }
@@ -108,7 +108,7 @@ body
      width: 1140px;   
     }
 
-    #card section
+    #cards section
     {
         flex: 0 1 33%;
     }
