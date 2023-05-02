@@ -1,3 +1,50 @@
+body
+{
+    background-color: azure;
+}
+
+
+
+#root
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#layout
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 300px 500px;
+    grid-template-areas:
+    "header"
+    "content"
+    "footer"
+    
+    
+    ;
+}
+
+#layout header
+{
+    grid-area: header;
+    background-color: red;
+}
+
+#layout main
+{
+    grid-area: content;
+    background-color: orange;
+}
+
+#layout footer
+{
+    grid-area: footer;
+    background-color: yellow;
+}
+
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     #root {
