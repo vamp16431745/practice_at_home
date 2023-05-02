@@ -55,12 +55,19 @@ body
 #cards section
 {
     flex: 0 1 100%;
+    border: 1px black solid;
 }
 
 #cards section.s1
 {
     background-color: greenyellow;
 
+}
+
+#cards h1
+{
+    text-align: center;
+    margin: 2em 0 ;
 }
 
 #cards section.s2
